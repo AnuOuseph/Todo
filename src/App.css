@@ -9,36 +9,53 @@
 }
 .heading{
     margin-top: 3rem;
-    color: #fff;
-    text-align: center;
+    margin-left: 3rem;
+    background: -webkit-linear-gradient(rgb(188, 12, 241), #ffaec6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     overflow-y: hidden;
+}
+.count{
+    background: -webkit-linear-gradient(rgb(188, 12, 241), #ffaec6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .form{
     margin-top: 3rem;
-    text-align: center;
+    text-align: center; 
+}
+input[type="text"]{
+    border: none;
+    outline: none;
+}
+.quote{
+    color:#fff;
+    overflow-y: hidden;
+    font-size: 26px;
 }
 .text, .button{
+    margin-top: 2rem;
     border: none;
     padding: 10px;
+    border-radius: 10px;
     
 }
 .button{
-    background-color: #a9fffe;
-    
+    background-image: linear-gradient(to right,#b12dc3, #ffaec6); 
 }
 .list{
-    background-color: #a9fffe;
+    /* background-color: #a9fffe; */
     margin: auto;
-    height: 400px;
-    margin-top: 3rem;
+    height: auto;
+    margin-top: 1rem;
     text-align: center;
+    
 }
 .items{
     display: flex;
     justify-content: space-between;
-    background-color: #a9fffe;
-    border: 1px solid #fff;
-    
+    background-image: linear-gradient(to right,#b12dc3, #ffaec6);
+    border-radius: 10px;
 }
 .items h4{
     overflow-y: hidden;
@@ -47,14 +64,20 @@
 .close{
     float: right;
     border: none;
+    border-radius: 10px;
 }
 .check{
     width: 20px;
     height: 20px;
     background-color: #333;
 }
+.icon{
+    font-size: 13px;
+}
 .data{
     border: none;
-    background-color: #a9fffe;
+    background: transparent;
+    font-size: 15px;
+    
 }
 
